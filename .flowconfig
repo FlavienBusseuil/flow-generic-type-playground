@@ -1,0 +1,15 @@
+[ignore]
+# Ignore VSCode
+.*/.vscode/.*
+
+[include]
+
+[libs]
+
+[lints]
+
+[options]
+# Absolute path support:
+module.name_mapper='^\/\(.*\)$' -> '<PROJECT_ROOT>/\1'
+
+[strict]

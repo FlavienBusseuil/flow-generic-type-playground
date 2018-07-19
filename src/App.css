@@ -1,0 +1,12 @@
+li {
+	list-style-type: none;
+	 cursor: pointer;
+}
+
+li>span {
+	margin-right: 1rem;
+}
+
+.selected {
+	font-weight: bolder;
+}
